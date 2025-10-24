@@ -11,7 +11,7 @@ public class Task4Test {
     @DisplayName("Tests for the fourth task")
     class Test {
         @org.junit.jupiter.api.Test
-        @DisplayName("Test clerk for constructor 1")
+        @DisplayName("Test clerk for constructor 1")ё
         void test1() {
             DiscountBill2 bill = new DiscountBill2(new Employee("clerk-1"), true);
             String expected = "clerk-1";
